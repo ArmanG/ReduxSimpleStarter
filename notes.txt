@@ -1,0 +1,18 @@
+What are components?
+Interchangeable with Views. Collection of javascript functions that produce HTML.
+
+JSX:
+- cannot be interpretted by the browser
+- webpack and babel translates jsx to javascript
+
+Why bother with JSX?
+- So javascript code that can produce html
+- we can just use javascript but JSX is easier
+JSX:
+const App = function() { 
+	return <div>Hi!</div>; 
+}
+Vanilla js ES5:
+	retur React.createElement("div", null, "Hi!");
+
+- imagine nesting...
